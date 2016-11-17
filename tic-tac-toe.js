@@ -54,7 +54,7 @@ else{
 function shapes3() {
   if(currentShape=="rect"){
 var circle=document.createElementNS(namespace,"circle")
-circle.setAttribute("cx", 150)
+circle.setAttribute("cx", 620)
 circle.setAttribute("cy", 110)
 circle.setAttribute("r", 65)
 circle.setAttribute("fill","white")
@@ -64,10 +64,10 @@ canvas.appendChild(circle)
 currentShape="circle" }
 else{
   var rect=document.createElementNS(namespace,"rect")
-  rect.setAttribute("x", 50)
-  rect.setAttribute("y", 100)
+  rect.setAttribute("x", 580)
+  rect.setAttribute("y", 60)
   rect.setAttribute("width", 120)
-  rect.setAttribute("height", 60)
+  rect.setAttribute("height", 130)
   rect.setAttribute("fill", "white")
   rect.setAttribute("stroke", "black")
   rect.setAttribute("stroke-width", 8)
@@ -75,11 +75,11 @@ else{
   currentShape="rect"}
 }
 
-function shapes4()
+function shapes4(){
 if(currentShape=="rect"){
 var circle=document.createElementNS(namespace,"circle")
-circle.setAttribute("cx", 150)
-circle.setAttribute("cy", 110)
+circle.setAttribute("cx", 140)
+circle.setAttribute("cy", 330)
 circle.setAttribute("r", 65)
 circle.setAttribute("fill","white")
 circle.setAttribute("stroke", "black")
@@ -89,9 +89,9 @@ currentShape="circle" }
 else{
 var rect=document.createElementNS(namespace,"rect")
 rect.setAttribute("x", 50)
-rect.setAttribute("y", 100)
+rect.setAttribute("y", 300)
 rect.setAttribute("width", 120)
-rect.setAttribute("height", 60)
+rect.setAttribute("height", 130)
 rect.setAttribute("fill", "white")
 rect.setAttribute("stroke", "black")
 rect.setAttribute("stroke-width", 8)
@@ -99,11 +99,11 @@ canvas.appendChild(rect)
 currentShape="rect"}
 }
 
-function shapes5()
+function shapes5(){
 if(currentShape=="rect"){
 var circle=document.createElementNS(namespace,"circle")
-circle.setAttribute("cx", 150)
-circle.setAttribute("cy", 110)
+circle.setAttribute("cx", 420)
+circle.setAttribute("cy", 320)
 circle.setAttribute("r", 65)
 circle.setAttribute("fill","white")
 circle.setAttribute("stroke", "black")
@@ -112,21 +112,21 @@ canvas.appendChild(circle)
 currentShape="circle" }
 else{
 var rect=document.createElementNS(namespace,"rect")
-rect.setAttribute("x", 50)
-rect.setAttribute("y", 100)
+rect.setAttribute("x", 390)
+rect.setAttribute("y", 300)
 rect.setAttribute("width", 120)
-rect.setAttribute("height", 60)
+rect.setAttribute("height", 130)
 rect.setAttribute("fill", "white")
 rect.setAttribute("stroke", "black")
 rect.setAttribute("stroke-width", 8)
 canvas.appendChild(rect)
 currentShape="rect"}
 }
-function shapes6()
+function shapes6(){
 if(currentShape=="rect"){
 var circle=document.createElementNS(namespace,"circle")
-circle.setAttribute("cx", 150)
-circle.setAttribute("cy", 110)
+circle.setAttribute("cx", 600)
+circle.setAttribute("cy", 320)
 circle.setAttribute("r", 65)
 circle.setAttribute("fill","white")
 circle.setAttribute("stroke", "black")
@@ -135,8 +135,8 @@ canvas.appendChild(circle)
 currentShape="circle" }
 else{
   var rect=document.createElementNS(namespace,"rect")
-  rect.setAttribute("x", 50)
-  rect.setAttribute("y", 100)
+  rect.setAttribute("x", 580)
+  rect.setAttribute("y", 300)
   rect.setAttribute("width", 120)
   rect.setAttribute("height", 60)
   rect.setAttribute("fill", "white")
@@ -146,11 +146,10 @@ else{
   currentShape="rect"}
 }
 function shapes7() {
-}
 if(currentShape=="rect"){
 var circle=document.createElementNS(namespace,"circle")
 circle.setAttribute("cx", 150)
-circle.setAttribute("cy", 110)
+circle.setAttribute("cy", 610)
 circle.setAttribute("r", 65)
 circle.setAttribute("fill","white")
 circle.setAttribute("stroke", "black")
@@ -160,7 +159,7 @@ currentShape="circle" }
 else{
   var rect=document.createElementNS(namespace,"rect")
   rect.setAttribute("x", 50)
-  rect.setAttribute("y", 100)
+  rect.setAttribute("y", 600)
   rect.setAttribute("width", 120)
   rect.setAttribute("height", 60)
   rect.setAttribute("fill", "white")
@@ -169,11 +168,11 @@ else{
   canvas.appendChild(rect)
   currentShape="rect"}
 }
-function shapes8 ()
+function shapes8 () {
 if(currentShape=="rect"){
 var circle=document.createElementNS(namespace,"circle")
 circle.setAttribute("cx", 150)
-circle.setAttribute("cy", 110)
+circle.setAttribute("cy", 610)
 circle.setAttribute("r", 65)
 circle.setAttribute("fill","white")
 circle.setAttribute("stroke", "black")
@@ -182,7 +181,7 @@ canvas.appendChild(circle)
 currentShape="circle" }
 else{
   var rect=document.createElementNS(namespace,"rect")
-  rect.setAttribute("x", 50)
+  rect.setAttribute("x", 150)
   rect.setAttribute("y", 100)
   rect.setAttribute("width", 120)
   rect.setAttribute("height", 60)
@@ -192,11 +191,11 @@ else{
   canvas.appendChild(rect)
   currentShape="rect"}
 }
-function shapes9()
+function shapes9() {
 if(currentShape=="rect"){
 var circle=document.createElementNS(namespace,"circle")
-circle.setAttribute("cx", 150)
-circle.setAttribute("cy", 110)
+circle.setAttribute("cx", 550)
+circle.setAttribute("cy", 510)
 circle.setAttribute("r", 65)
 circle.setAttribute("fill","white")
 circle.setAttribute("stroke", "black")
@@ -205,8 +204,8 @@ canvas.appendChild(circle)
 currentShape="circle" }
 else{
   var rect=document.createElementNS(namespace,"rect")
-  rect.setAttribute("x", 50)
-  rect.setAttribute("y", 100)
+  rect.setAttribute("x", 550)
+  rect.setAttribute("y", 500)
   rect.setAttribute("width", 120)
   rect.setAttribute("height", 60)
   rect.setAttribute("fill", "white")
@@ -214,12 +213,4 @@ else{
   rect.setAttribute("stroke-width", 8)
   canvas.appendChild(rect)
   currentShape="rect"}
-}
-
-
-
-
-
-
-
 }
