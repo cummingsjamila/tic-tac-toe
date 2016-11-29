@@ -219,10 +219,10 @@ currentShape="circle"
 buttonClicked8=9  }
 else{
   var rect=document.createElementNS(namespace,"rect")
-  rect.setAttribute("x", 360)
+  rect.setAttribute("x", 290)
   rect.setAttribute("y", 530)
-  rect.setAttribute("width", 120)
-  rect.setAttribute("height", 130)
+  rect.setAttribute("width", 140)
+  rect.setAttribute("height", 60)
   rect.setAttribute("fill", "white")
   rect.setAttribute("stroke", "black")
   rect.setAttribute("stroke-width", 8)
