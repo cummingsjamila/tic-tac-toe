@@ -5,8 +5,10 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+<h1> Tic-Tac-Toe</h1>
     <button onclick= "reset"()>Reload page</button>
-    <svg id="game-board" width="80%" viewBox="0 0 790 700">
+
+  <svg id="game-board" width="80%" viewBox="0 0 790 700">
   <rect x="15"   y="15" width="250" height="220"
   fill="plum"stroke="darkblue" stroke-width="14" onclick="shapes()"/>
   <rect x="15" y="245" width="250" height="220" fill="plum" stroke="darkblue" stroke-width="14" onclick="shapes4()"/>
@@ -21,10 +23,19 @@
 </svg>
 
     <!-- This line of code points to your JavaScript file. No need to touch it. -->
-    <script src="tic-tac-toe.js"></script>
+    <script src="tic-tac-toe.js">
+    function myFunction() {
+    document.getElementById("game-over").innerHTML = "Winner!";
+}
+    </script>
   <h3> Who wants to play a game of tic-tac-toe?
   Do you feel like you have what it takes to win?
-  Only to find out it to play!</h3>
-<h4> Here's how to play
+  The only way to find out, is to play!</h3>
+  <ol> Here's how to play!</ol>
+    <ol> Figure out if you want to first or second. </ol>
+    <ol> If you are first then you will be player one and will play as a square</ol>
+    <ol> If you are second, then you will play as a circle.</ol>
+    <ol> First player to get 3 in row going horizontally and or vertically will be the winner!</ol>
+    <ol> Have fun playing tic-tac-toe!</ol>
   </body>
 </html>

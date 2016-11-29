@@ -1,8 +1,22 @@
 /* Write all your CSS style code in this file! */
+@import url('https://fonts.googleapis.com/css?family=Boogaloo|Rancho|Righteous|Yrsa');
 body{
   background-color:lightblue;
 }
 p{
   text-align:center;
-
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Rancho', cursive;
+}
+ol{
+  font-family: 'Boogaloo', cursive;
+  text:center;
+  background-color: lightgrey;
+  font-size: 20px;
+}
+h3{
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  margin: auto;
 }
